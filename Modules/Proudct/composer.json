@@ -1,0 +1,31 @@
+{
+    "name": "nwidart/proudct",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Proudct\\": "",
+            "Modules\\Proudct\\App\\": "app/",
+            "Modules\\Proudct\\Database\\Factories\\": "database/factories/",
+            "Modules\\Proudct\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Proudct\\Tests\\": "tests/"
+        }
+    }
+}

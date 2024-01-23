@@ -1,0 +1,11 @@
+{
+    "name": "Proudct",
+    "alias": "proudct",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Proudct\\App\\Providers\\ProudctServiceProvider"
+    ],
+    "files": []
+}
